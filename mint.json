@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Collection",
+  "name": "Collection — Aprenda",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
@@ -25,16 +25,6 @@
     "name": "Acessar Collection",
     "url": "https://app.collection.com.br"
   },
-  "tabs": [
-    {
-      "name": "Render IA",
-      "url": "render"
-    },
-    {
-      "name": "Plugin SketchUp",
-      "url": "plugin"
-    }
-  ],
   "anchors": [
     {
       "name": "Comunidade",
@@ -42,73 +32,48 @@
       "url": "https://app.collection.com.br/community"
     },
     {
-      "name": "WhatsApp Suporte",
+      "name": "Suporte",
       "icon": "whatsapp",
       "url": "https://wa.me/5544997173487"
     }
   ],
   "navigation": [
     {
-      "group": "Começando",
+      "group": "🚀 Começando",
       "pages": [
         "introducao",
-        "planos",
-        "collecs"
+        "comecando/instalando-plugin",
+        "comecando/primeiro-download",
+        "comecando/planos-e-collecs"
       ]
     },
     {
-      "group": "Biblioteca 3D",
+      "group": "🎨 Dominando o Collection",
       "pages": [
-        "biblioteca/navegando",
-        "biblioteca/busca-filtros",
-        "biblioteca/favoritos",
-        "biblioteca/adicionar-projeto",
-        "biblioteca/download-blocos"
+        "dominando/seu-primeiro-projeto",
+        "dominando/enviando-cenas",
+        "dominando/seu-primeiro-render",
+        "dominando/ajustando-render",
+        "dominando/correcao-cor-e-4k",
+        "dominando/preservar-imagem"
       ]
     },
     {
-      "group": "Studio",
+      "group": "✨ Impressionando sua cliente",
       "pages": [
-        "studio/dashboard",
-        "studio/apresentacao",
-        "studio/identificacao",
-        "studio/especificacao",
-        "studio/compartilhar-cliente"
+        "impressionando/montando-apresentacao",
+        "impressionando/tageando-produtos",
+        "impressionando/especificacao",
+        "impressionando/compartilhando-com-cliente",
+        "impressionando/ganhando-recompensas"
       ]
     },
     {
-      "group": "Recompensas",
+      "group": "💡 Extras",
       "pages": [
-        "recompensas/como-funciona",
-        "recompensas/sacar"
-      ]
-    },
-    {
-      "group": "Comunidade",
-      "pages": [
-        "comunidade/publicar-projeto"
-      ]
-    },
-    {
-      "group": "Render IA",
-      "pages": [
-        "render/primeiro-render",
-        "render/ambientacao",
-        "render/converse-imagem",
-        "render/correcao-cor",
-        "render/super-resolucao-4k",
-        "render/preservar-imagem",
-        "render/dicas-renders-melhores"
-      ]
-    },
-    {
-      "group": "Plugin SketchUp",
-      "pages": [
-        "plugin/instalacao",
-        "plugin/biblioteca-no-sketchup",
-        "plugin/enviar-cena-studio",
-        "plugin/renderizar-ao-enviar",
-        "plugin/materiais-mapas"
+        "extras/dicas-renders-melhores",
+        "extras/comunidade",
+        "extras/materiais-e-mapas"
       ]
     }
   ],
