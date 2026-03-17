@@ -1,0 +1,118 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Collection",
+  "logo": {
+    "dark": "/logo/dark.svg",
+    "light": "/logo/light.svg"
+  },
+  "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#C17B5D",
+    "light": "#D4A088",
+    "dark": "#A0624A",
+    "anchors": {
+      "from": "#C17B5D",
+      "to": "#A0624A"
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "Suporte",
+      "url": "https://wa.me/5544997173487"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Acessar Collection",
+    "url": "https://app.collection.com.br"
+  },
+  "tabs": [
+    {
+      "name": "Render IA",
+      "url": "render"
+    },
+    {
+      "name": "Plugin SketchUp",
+      "url": "plugin"
+    }
+  ],
+  "anchors": [
+    {
+      "name": "Comunidade",
+      "icon": "users",
+      "url": "https://app.collection.com.br/community"
+    },
+    {
+      "name": "WhatsApp Suporte",
+      "icon": "whatsapp",
+      "url": "https://wa.me/5544997173487"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Começando",
+      "pages": [
+        "introducao",
+        "planos",
+        "collecs"
+      ]
+    },
+    {
+      "group": "Biblioteca 3D",
+      "pages": [
+        "biblioteca/navegando",
+        "biblioteca/busca-filtros",
+        "biblioteca/favoritos",
+        "biblioteca/adicionar-projeto",
+        "biblioteca/download-blocos"
+      ]
+    },
+    {
+      "group": "Studio",
+      "pages": [
+        "studio/dashboard",
+        "studio/apresentacao",
+        "studio/identificacao",
+        "studio/especificacao",
+        "studio/compartilhar-cliente"
+      ]
+    },
+    {
+      "group": "Recompensas",
+      "pages": [
+        "recompensas/como-funciona",
+        "recompensas/sacar"
+      ]
+    },
+    {
+      "group": "Comunidade",
+      "pages": [
+        "comunidade/publicar-projeto"
+      ]
+    },
+    {
+      "group": "Render IA",
+      "pages": [
+        "render/primeiro-render",
+        "render/ambientacao",
+        "render/converse-imagem",
+        "render/correcao-cor",
+        "render/super-resolucao-4k",
+        "render/preservar-imagem",
+        "render/dicas-renders-melhores"
+      ]
+    },
+    {
+      "group": "Plugin SketchUp",
+      "pages": [
+        "plugin/instalacao",
+        "plugin/biblioteca-no-sketchup",
+        "plugin/enviar-cena-studio",
+        "plugin/renderizar-ao-enviar",
+        "plugin/materiais-mapas"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "instagram": "https://instagram.com/collection.arq"
+  }
+}
