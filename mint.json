@@ -17,13 +17,13 @@
   },
   "topbarLinks": [
     {
-      "name": "Suporte",
-      "url": "https://wa.me/5544997173487"
+      "name": "Acessar Collection",
+      "url": "https://app.collection.com.br"
     }
   ],
   "topbarCtaButton": {
-    "name": "Acessar Collection",
-    "url": "https://app.collection.com.br"
+    "name": "Suporte",
+    "url": "https://wa.me/5544997173487"
   },
   "anchors": [
     {
