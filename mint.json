@@ -25,18 +25,13 @@
     "name": "Suporte",
     "url": "https://wa.me/5544997173487"
   },
-  "anchors": [
-    {
-      "name": "Comunidade",
-      "icon": "users",
-      "url": "https://app.collection.com.br/community"
-    },
-    {
-      "name": "Suporte",
-      "icon": "whatsapp",
-      "url": "https://wa.me/5544997173487"
-    }
-  ],
+  "anchors": [],
+  "primaryTab": {
+    "name": "Aprenda"
+  },
+  "search": {
+    "prompt": "Buscar..."
+  },
   "navigation": [
     {
       "group": "🚀 Começando",
