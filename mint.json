@@ -43,37 +43,40 @@
       "pages": [
         "introducao",
         "comecando/instalando-plugin",
-        "comecando/primeiro-download",
         "comecando/planos-e-collecs"
       ]
     },
     {
-      "group": "🎨 Dominando o Collection",
+      "group": "📚 Biblioteca 3D",
       "pages": [
-        "dominando/seu-primeiro-projeto",
-        "dominando/enviando-cenas",
-        "dominando/seu-primeiro-render",
-        "dominando/ajustando-render",
-        "dominando/correcao-cor-e-4k",
-        "dominando/preservar-imagem"
+        "biblioteca/navegando-e-buscando",
+        "biblioteca/baixando-blocos",
+        "biblioteca/favoritos-e-projetos"
       ]
     },
     {
-      "group": "✨ Impressionando sua cliente",
+      "group": "🎨 Seu Fluxo de Projeto",
       "pages": [
-        "impressionando/montando-apresentacao",
-        "impressionando/tageando-produtos",
-        "impressionando/especificacao",
-        "impressionando/compartilhando-com-cliente",
-        "impressionando/ganhando-recompensas"
+        "fluxo/criando-projeto",
+        "fluxo/enviando-cenas",
+        "fluxo/montando-apresentacao",
+        "fluxo/renderizando",
+        "fluxo/converse-com-imagem",
+        "fluxo/correcao-de-cor",
+        "fluxo/super-resolucao-4k",
+        "fluxo/preservar-na-imagem",
+        "fluxo/identificando-produtos",
+        "fluxo/especificacao"
       ]
     },
     {
-      "group": "💡 Extras",
+      "group": "💰 Seu Cliente, Sua Receita",
       "pages": [
-        "extras/dicas-renders-melhores",
-        "extras/comunidade",
-        "extras/materiais-e-mapas"
+        "cliente/experiencia-do-cliente",
+        "cliente/compartilhando-projeto",
+        "cliente/ensinando-seu-cliente",
+        "cliente/recompensas",
+        "cliente/acompanhando-vendas"
       ]
     }
   ],
