@@ -2,10 +2,10 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "Collection — Aprenda",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/collection-icon.jpg",
+    "light": "/logo/collection-icon.jpg"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/logo/collection-icon.jpg",
   "colors": {
     "primary": "#C17B5D",
     "light": "#D4A088",
