@@ -1,46 +1,88 @@
-﻿---
+---
 title: "Preservar na Imagem"
-description: "Combine versões quando a IA muda mais do que devia"
+description: "Mescle versões quando a IA muda mais do que você pediu"
 ---
 
-Você pediu pra IA trocar o piso. o cliente trocou o piso **e** mudou a parede. Você quer o piso novo, mas a parede original. O Preservar resolve isso.
+Você pediu pra IA trocar a cor do sofá. Ela trocou o sofá — mas também mudou a poltrona. Você quer o sofá novo **e** a poltrona original. O **Preservar na Imagem** resolve exatamente isso: ele mescla duas versões da sua imagem, mantendo o melhor de cada uma.
 
-## Onde encontrar
+<Tip>
+**Não gasta Collecs.** O Preservar combina imagens que você já tem — sem gerar nada novo.
+</Tip>
 
-O Preservar na Imagem fica dentro do **Histórico** (🕰️) — tanto do Render quanto do Converse com a Imagem. Todas as versões anteriores ficam salvas lá.
+## Veja na prática
 
-## Como usar
+<iframe
+  width="100%"
+  height="400"
+  src="https://drive.google.com/file/d/1vL_4UdmxER6u304pG2X9IauRiN4E8vnZ/preview"
+  allow="autoplay"
+  style={{ borderRadius: '8px' }}
+/>
+
+## Como funciona
+
+O Preservar trabalha com **duas versões** da sua imagem:
+
+- **Versão A** — a imagem editada (com a mudança que a IA fez)
+- **Versão B** — a imagem anterior (com o que estava correto antes)
+
+Você "pinta" na tela as áreas que quer **recuperar da versão anterior**. O resultado é uma imagem mesclada com o melhor das duas.
+
+## Passo a passo
 
 <Steps>
   <Step title="Abra o Histórico">
-    Na toolbar, clique em **🕰️ Histórico**.
+    Na toolbar da imagem, clique em **🕰️ Histórico**. Todas as versões anteriores ficam salvas aqui — tanto do Render quanto do Converse com a Imagem.
   </Step>
-  <Step title="Selecione 'Preservar na Imagem'">
-    Escolha a versão anterior que tem o que você quer manter.
+  <Step title="Encontre a versão com a alteração correta">
+    Navegue pelas versões. Identifique a que tem a mudança que você **quer manter** (ex: o sofá com a cor nova).
   </Step>
-  <Step title="Pinte a máscara">
-    Uma máscara aparece sobre a imagem. Pinte as áreas que quer **recuperar da versão anterior**.
+  <Step title="Clique em 'Preservar na Imagem'">
+    Com a versão correta selecionada, clique no botão **Preservar na Imagem**. A tela vai ficar com uma cor avermelhada — é a máscara de seleção.
   </Step>
-  <Step title="Confirme">
-    Resultado: uma imagem mesclada — o melhor das duas versões.
+  <Step title="Pinte as áreas que quer recuperar">
+    Use o pincel para marcar as partes que você quer **trazer de volta da versão original**. No exemplo do vídeo: pinte sobre a poltrona para recuperar a poltrona da cena original.
+
+    <Info>
+    Você está pintando o que quer **preservar do original**, não o que quer manter da edição. A edição já é a base — você está "resgatando" partes de antes.
+    </Info>
+  </Step>
+  <Step title="Clique em Concluir">
+    O Collection mescla as duas imagens automaticamente. Resultado: a mudança que você queria (sofá novo) **+** as partes originais que a IA não devia ter tocado (poltrona).
   </Step>
 </Steps>
 
-## Exemplo prático
+## Exemplo na prática
 
-Você pediu "troque o piso para amadeirado". A IA trocou o piso E mudou a cor da parede:
+Imagine que você pediu: *"troque a cor do sofá para azul"*
 
-| | Versão original | Versão editada | Resultado mesclado |
+| Elemento | Antes (original) | Depois (editado) | Resultado com Preservar |
 |---|---|---|---|
-| **Piso** | Antigo ❌ | Amadeirado ✅ | Amadeirado ✅ |
-| **Parede** | Bege ✅ | Branca ❌ | Bege ✅ |
+| **Sofá** | Bege | Azul ✅ | Azul ✅ |
+| **Poltrona** | Cinza | Marrom ❌ | Cinza ✅ |
+| **Parede** | Branca | Branca | Branca |
 
-Você usa o Preservar para "pintar" a parede de volta ao original, mantendo o piso novo.
+A IA mudou o sofá (correto) mas também mudou a poltrona (incorreto). Com o Preservar, você pinta a poltrona na máscara → ela volta ao original → resultado perfeito.
+
+## Quando usar
+
+<CardGroup cols={2}>
+  <Card title="A IA mudou algo a mais" icon="paint-roller">
+    Você pediu uma coisa, mas ela alterou outra. Caso mais comum.
+  </Card>
+  <Card title="Quer combinar duas edições" icon="layer-group">
+    Fez duas versões e quer misturar o melhor de cada uma.
+  </Card>
+</CardGroup>
+
+## Dica de ouro
 
 <Tip>
-A melhor prevenção: peça **uma mudança por vez** no Converse com a Imagem. Mas quando acontecer, o Preservar resolve sem gastar mais Collecs.
+A melhor forma de **evitar** precisar do Preservar: peça **uma mudança por vez** no Converse com a Imagem. Quanto mais específico o pedido, menos chance da IA alterar algo a mais.
+
+Mas quando acontecer — e vai acontecer — o Preservar resolve sem gastar mais Collecs.
 </Tip>
 
-<Card title="Próximo: Identificando produtos →" icon="arrow-right" href="/fluxo/identificando-produtos">
+<Card title="Próximo: Identificando Produtos →" icon="arrow-right" href="/fluxo/identificando-produtos">
   Tageie cada produto na imagem para seu cliente saber o que é cada item.
 </Card>
